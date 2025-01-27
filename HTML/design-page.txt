@@ -1,0 +1,45 @@
+The title of the website is The ShefFamily and I ensured myself to type it in in all html documents. Also everything writeen in any documents is from me, Nick Efe Oni, unless stated otherwise.
+
+In the index.html file:
+	A logo name : the ShefFamily over a blue banner with some padding
+	3 photos from the Department of Computer Science website
+	A welcome message
+	An introduction of what the committee is about
+	A footer containing info on writer, sources, and update date
+	A navigation container containing links to other pages
+
+In the purpose.html file:
+	The webpage link name I have chosen it to be:  "What does the staff-student committee do?"
+	Again we have the same photos, logo, navigation links at the top of the page. We also have a h1 heading before the navigation links telling the user what this page is going to be about.
+	The h1 heading have opted it to be: "The actions carried by SSLCom".
+	We also have smaller headings to summarizes the different sections of the webpage also helped by the different article tags.
+	I also added the pictorial quiz choosing that the best way to show answer is to hover over a button after giving some information along with the prompt pictures that would be used for the quiz.
+	The footer section has not changed except i added where I got the pictures which should be copyright-free but due to preucations I have added a link of where I got them from. I have also added the link of the website from which the pictures were taken after each image.
+	
+In the membership.html file:
+	Has a list the members of the committee and their roles grouped by who/what they represent. 
+	Also, contains another list of roles that are not filled.
+	
+In the meetings&papers.html file:
+	Has a list of the dates of meetings along with links to "fake" agendas and minutes of meetings.
+
+In the contact.html file:
+	Thre is the contact details for the committee, 
+	and a form meant for users to send comments to the committee by:
+		inputing their e-mail address in a text box in the form, 
+		inputing who the comments are for (e.g. a specific committee member or a specific year group) 
+		and then inputing their comments in another text input field on the form. 
+	The form includes also a button, which when clicked by the user, clears the form giving the idea that it has been sent. 
+	The form also includes a <label> element, which is useful for screen-reader users, given that the screen-reader can read out loud the label when the user focuses on the input element. But, also helps users who have difficulty clicking on very small regions i.e. checkboxes and/or radio buttons as when the user clicks the text within the <label> element, it toggles the radio button/checkbox.
+	Also autocomplete is on for the form entry.
+	Also there is a place-holder in the form entry when requesting the email address
+	I also made sure to make it a 2 column webpage just to show the skills of being able to do so.
+
+In the accessibility.html file:
+	It is included my accessibility statement for the website;
+	along as well the reasoning behind the choices I have made.
+	
+In the legal&security.html file:
+	I explain all legal issues and choices i have addressed.
+	
+	

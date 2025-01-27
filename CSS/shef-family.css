@@ -1,0 +1,373 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: Arial, sans-serif;
+}
+
+header {
+	text-align: center;
+	padding: 10px 10px 0 10px;
+	background-color: rgb(255, 255, 225);
+    border: 4px double brown;
+	width: 90%;
+	margin-top: 2.5%; 
+}
+@media screen and (min-width: 2000px) {
+	header{width: 80%;}
+}
+
+h1, h2, h3 {
+	margin: 10px 0 0 0;
+	padding: 10px;
+	margin-bottom: 20px;
+	color: brown;
+	border: 4px double brown;
+	text-align: center;
+}
+h2 {
+	width: 70%;
+	margin-left: 14%;
+	border-style: solid;
+	
+}
+h3 {
+	width: 50%;
+	margin-left: 24%;
+	border: 2px solid brown;
+	padding: 5px;
+}
+@media screen and (max-width: 690px) and (min-width: 501px), (max-width: 405px) {
+	h3 {width: 80%; margin-left: 10%;}
+}
+@media screen and (max-width: 320px) {
+	h2, h3 {
+		display: flex;
+		border: none;
+		flex-direction: column;
+		align-content: center;
+		justify-content: space-evenly;
+		align-items: stretch;
+		flex-wrap: wrap;
+	}
+}
+@media screen and (max-width: 260px) {
+	h1 {
+		display: flex;
+		border: none;
+		flex-direction: column;
+		align-content: center;
+		justify-content: space-evenly;
+		align-items: stretch;
+		flex-wrap: wrap;	
+	}
+}
+
+.main-layout {
+	width: 90%;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+@media screen and (max-width: 500px) {
+	.main-layout{flex-direction: column;}
+}
+@media screen and (min-width: 2000px) {
+	.main-layout{width: 80%;}
+}
+
+@media screen and (min-width: 1440px) {
+	.sub-main-layout {
+		display: flex;
+		flex-direction: row;
+		align-items: stretch;
+		justify-content: center;
+		flex-wrap: nowrap;
+	}
+}
+
+nav>ul {
+	display: flex;
+    flex-flow: row wrap;
+    list-style-type: none;
+    flex-direction: column;
+}
+nav a, main {
+	border: 3px double brown;
+	padding: 5px;
+	display: block;
+	background-color: rgb(255, 255, 225);
+}
+nav a {margin: 0 0 3px 0; font-size: 100%;}
+main{margin: 10px 0 3px 0; width: 100%;}
+nav {margin: 10px 5px 0 0;}
+@media screen and (max-width: 355px) {
+	.main-layout, header, p {min-width: 100%;}
+}
+
+body {
+	width: 100%;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+}
+
+.images {
+	box-sizing: border-box;
+	display: block;
+	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+.logo-images {
+	max-width: 100%;
+	height: auto;
+	margin: 10px;
+	border: 6px double brown;
+}
+@media only screen and (max-width: 600px) {.logo-images {margin: 2% 0 2% 0;}}
+@media only screen and (max-width: 650px) {.logo-images {max-width: 80%;}}
+@media only screen and (min-width: 768px) {.logo-images {max-width: 90%;}}
+@media only screen and (min-width: 769px) {
+	.logo-images {
+		max-width: 28%;
+		display: inline-block;
+		margin: 0 1% 0 1%;
+	}
+}
+@media only screen and (max-width: 550px) {
+	.logo-images {
+		max-width: 28%;
+		display: inline-block;
+		margin: 0 1% 0 1%;
+	}
+}
+.page-images {
+	max-width: 50%;
+	height: auto;
+	margin: 10px;
+	border: 6px double brown;
+	border-radius: 15px;
+}
+@media screen and (min-width: 1440px) {
+	.page-images {
+		max-width: 505px;
+	}
+}
+
+main ul, main ol {
+	margin: 15px 0 15px 0;
+}
+
+main ul li, main ol li {
+	margin: 2px 0 0 19px;
+}
+
+main ul ul, main ol ol {
+	margin: 7px 0 7px 0;
+}
+
+main ul ul li, main ol ol li {
+	margin: 2px 0 0 38px;
+}
+
+main ul ul ul li, main ol ol ol li {
+	margin: 2px 0 0 57px;
+}
+li, p{font-size: 139%;}
+a {
+	font-size: 94%;
+	color: rgb(0, 150, 75); /*a green shade*/
+	transition: color 0.75s, font-weight 0.35s;
+	cursor: pointer;
+}
+a:visited {
+	color: rgb(0, 150, 150); /*a green shade*/ 
+}
+a:hover, a:focus {
+	color: rgb(150, 150, 0); /*a green shade*/
+	font-weight: 800;
+} 
+a:active {color: rgb(75, 150, 0);} /*a green shade*/
+
+h1{font-size: 250%;}
+h2{font-size: 194%;}
+h3{font-size: 158%;}
+
+.special-list-item {
+	border-bottom: 3px double brown;
+	border-top: 3px double brown;
+	display: block;
+}
+
+.special-list-subitem {
+	border: 2.48px double brown;
+	display: block;
+}
+
+.special-u-list-item {
+	font-size: 120%;
+}
+
+@media screen and (min-width: 770px) {
+	.main-list {
+		width: 90%;
+		margin: 5%;
+		text-align: center;
+		list-style: none;
+		border-style: solid;
+		border-color: brown;
+		border-width: 3px;
+		background-color: rgb(255, 255, 225);
+		padding-top: 10px;
+	}
+}
+
+.special-u-list {
+	margin-left: 27px;
+	border-right: 3px double brown;
+	border-left: 3px double brown;
+}
+
+.paragraph {
+	border-left-style: double;
+	border-right-style: double;
+	border-color: brown;
+	border-width: 3px;
+	padding: 0 8px 0 8px;
+}
+
+.paragraph-v2 {
+	display: block;
+	border-left-style: double;
+	border-right-style: double;
+	border-color: brown;
+	border-width: 3px;
+	padding: 0 8px 0 8px;
+	margin-left: 27px;
+	font-size: 120%;
+}
+
+button {
+	background-color: white;
+	padding: 5px;
+	transition: background-color 2s;
+	vertical-align: center;
+}
+
+@media screen and (max-width: 970px) {
+	button {
+		width: 90%
+	}
+}
+
+button span {
+	color: white;
+	transition: margin 2 background-color 2;
+}
+
+button:focus span{
+	background-color: rgb(255,255,225);
+	color: brown;
+	font-family: Playpen Sans;
+	font-weight: 800;
+	margin: 2px;
+
+}
+
+textarea {
+	border: 2px solid brown;
+	width: 90%;
+}
+
+.important-message {
+	border: 2px solid brown;
+	padding: 5px;
+	text-align: center;
+	font-weight: 700;
+	font-style: italic;
+}
+
+label {
+	font-weight: 700;
+}
+
+input, select, option {
+	border: 2px solid brown;
+	width: 50%;
+	min-width: 200px;
+}
+@media screen and (max-width: 240px) {
+	input, select, option {
+		min-width: 0px;
+		width: 80%;
+	}
+	textarea {
+		min-width: 0px;
+		width: 90%;
+	}
+}
+
+textarea+input {
+	width: 30%; 
+	min-width: 100px;
+}
+
+.closed-section {
+	border-style: solid; 
+	border-color: brown; 
+	background-color: rgb(255, 255, 225);
+	margin: 2% 2% 2% 2%;
+}
+
+.closed-section-v2 {
+	border: 4px solid brown; 
+	background-color: rgb(255, 255, 225);
+	margin: 2% 2% 2% 2%;
+	padding: 2% 2% 2% 2%;
+}
+
+.staff-list>li {
+	margin-left: 20px;
+}
+
+footer {
+	width: 100%;
+	text-align: center;
+	color: grey
+}
+footer>span {
+	font-weight: 700;
+}
+footer>a, footer>a:visited {
+	color: grey; 
+	font-weight: 700;
+}
+footer>a:hover, footer>a:focus {
+	color: rgb(150, 150, 0); /*a green shade*/
+	font-weight: 800;
+} 
+
+.underline {
+	text-decoration: underline;
+}
+
+.bold {
+	font-weight: 700;
+}
+
+.italic {
+	font-style: italic;
+}
+
+.special-bold {
+	font-weight: 600;
+}
+
+.prompt {
+	font-family: Playpen Sans; 
+	font-size: 116%;
+}
